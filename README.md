@@ -12,16 +12,18 @@ TensorFlow. Matplotlib is used for Visualization Purposes. Converting Audio  Cla
 About the Dataset:
 The data is divided into Training and Testing Data. 
 
-− Testing Set
-[1]Forest Recordings - These are the Recordings to use to count the number 
+− Testing Set:
+
+[1] Forest Recordings - These are the Recordings to use to count the number 
 of Calls within. Each clip is ~3 min and includes a mix of Capuchinbirds and 
 other sounds.
-o Contains 100 files
+  -  Contains 100 files
 
 − Training Set
-[2]Parsed_Capuchinbird_Clips - These are parsed 3 sec clips that include 
+[2] Parsed_Capuchinbird_Clips - These are parsed 3 sec clips that include 
 specific bird calls from Capuchinbirds only
-o Contains 217 files
-[3]Parsed-Not-Capuchinbird_Clips - These files are parsed sounds from other 
+  -  Contains 217 files
+    
+[3] Parsed-Not-Capuchinbird_Clips - These files are parsed sounds from other 
 animals/birds that are useful in training what is not a Capuchinbird.
-o Contains 593 files
+  - Contains 593 files
